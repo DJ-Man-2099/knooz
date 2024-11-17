@@ -60,12 +60,14 @@ sheets = [
         "id": "1b8PG9tm09M93Dl40C4DNvhfrBPZPVMINMevss0bKsFc",
         "end_row_index": 23,
     },
-    # '1b8PG9tm09M93Dl40C4DNvhfrBPZPVMINMevss0bKsFc':{
-    #     "end_row_index": 23,
-    # },
-    # '1b8PG9tm09M93Dl40C4DNvhfrBPZPVMINMevss0bKsFc':{
-    #     "end_row_index": 23,
-    # },
+    {
+        "id": "1Vk89XNDGc4UlCyoeDgVXl6wcQg6fL3zlmdeqU8SRG6A",
+        "end_row_index": 21,
+    },
+    {
+        "id": "1nMS5l3A7zQjxTixKfF4S4IWD4ijOi_c5X_JiOzDjQ4s",
+        "end_row_index": 25,
+    },
 ]
 
 
@@ -126,6 +128,7 @@ def lock_range(
         print(response)
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 # def unlock_sheet(
 #     spreadsheet_id: int,
@@ -202,6 +205,7 @@ def lock_day(day: int):
             end_row_index=sheets[i]["end_row_index"],
             spreadsheet_id=sheets[i]["id"],
         )
+
 
 # TODO: Add a function for unlocking all
 
