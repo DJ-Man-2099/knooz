@@ -11,7 +11,7 @@
     in cmd: `pip install -r requirements.txt`
 4. run python file
     
-    in cmd: `python ./lock_sheets`
+    in cmd: `python ./lock_sheets.py`
 5. enter the day number to lock (Friday=1, Saturday=2, etc....)
 
 6. Tadaaaaa 🎉🎉🎉
